@@ -73,11 +73,11 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 var encodeUriComponent = require('encodeUriComponent');
 var injectScript = require('injectScript');
-var params = encodeUriComponent("key="+data.ematicApikey+"&emailAddress="+data.email);
-var trackingUrl = "https://api.ematicsolutions.com/v1/ematicJsGTMWrapper.js?"+params;
+var params = "key=" + encodeUriComponent(data.ematicApikey) + "&emailAddress=" + encodeUriComponent(data.email);
+var trackingUrl = "https://api.ematicsolutions.com/v1/ematicjsGTMWrapper.js?"+params;
 injectScript(trackingUrl, data.gtmOnSuccess, data.gtmOnFailure);
 
 
 ___NOTES___
 
-Created on 20/08/2019, 10:49:31
+Created on 13/09/2019, 09:41:58
