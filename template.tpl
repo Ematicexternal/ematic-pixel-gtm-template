@@ -2,7 +2,7 @@
 
 {
   "displayName": "Ematic Pixel",
-  "description": "To activate subscription capture on website using Ematic's Bye-iQ",
+  "description": "Activate subscription capture using Ematic's Bye-iQ",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -80,4 +80,4 @@ injectScript(trackingUrl, data.gtmOnSuccess, data.gtmOnFailure);
 
 ___NOTES___
 
-Created on 13/09/2019, 09:41:58
+Created on 13/09/2019, 09:53:07
