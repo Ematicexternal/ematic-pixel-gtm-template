@@ -1,0 +1,5 @@
+homepage: "www.ematicsolutions.com",
+documentation: "https://ematicexternal.github.io/doc/quick-start/initializing-ematic-js.html",
+versions:
+  - sha: a123b4c5678defabc3
+    changeNotes: Initial release.
