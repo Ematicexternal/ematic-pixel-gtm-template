@@ -10,7 +10,7 @@ ___INFO___
 {
   "displayName": "Ematic Pixel",
   "description": "Activate subscription capture using Ematic's Bye-iQ",
-  "categories": ["LEAD_GENERATION", "REMARKETING", "CONVERSION_TRACKING"],
+  "categories": ["LEAD_GENERATION", "REMARKETING", "CONVERSIONS"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
